@@ -4,7 +4,6 @@ An AI-powered Legal Research Assistant built using **LangChain**, **Retrieval-Au
 
 This application enables users to perform legal research by querying a knowledge base of legal documents, case law, and regulatory information. The system retrieves the most relevant legal document chunks using semantic similarity search and generates accurate, context-aware responses using a Large Language Model.
 
----
 
 ## 🚀 Features
 
@@ -20,7 +19,6 @@ This application enables users to perform legal research by querying a knowledge
 - 🤖 Groq LLM integration for fast AI responses
 - 💬 Interactive Gradio web interface
 
----
 
 ## 🏗️ RAG Architecture
 
@@ -62,7 +60,6 @@ Groq LLM
 Generated Legal Response
 ```
 
----
 
 ## 🛠️ Tech Stack
 
@@ -78,7 +75,6 @@ Generated Legal Response
 | PyPDF | PDF Processing |
 | python-docx | DOCX Processing |
 
----
 
 ## 📂 Project Structure
 
@@ -95,7 +91,6 @@ langchain-legal-research-tool/
 └── legaldoc1.docx
 ```
 
----
 
 ## 📚 Dataset
 
@@ -109,8 +104,6 @@ The project uses a collection of legal reference documents including:
 - Legal DOCX Documents
 
 These documents are ingested into the Chroma Vector Database after chunking and embedding.
-
----
 
 ## ⚙️ How It Works
 
@@ -148,7 +141,6 @@ When a user asks a question:
 
 The retrieved chunks are passed to the Groq LLM along with a prompt template to generate the final legal response.
 
----
 
 ## 💻 Installation
 
@@ -175,7 +167,6 @@ pip install python-docx
 pip install pypdf
 ```
 
----
 
 ## ▶️ Running the Project
 
@@ -191,20 +182,6 @@ demo.launch(share=True)
 
 Open the generated Gradio URL in your browser.
 
----
-
-## 📸 Demo
-
-> Add screenshots of your Gradio interface here.
-
-Example:
-
-- Home Screen
-- Legal Query Mode
-- Regulatory Analysis
-- Legal Brief Generation
-
----
 
 ## 🔮 Future Improvements
 
@@ -217,7 +194,6 @@ Example:
 - Streamlit Deployment
 - Cloud Deployment (HuggingFace Spaces / Render / AWS)
 
----
 
 ## 👩‍💻 Author
 
@@ -232,9 +208,8 @@ Interested in:
 - Retrieval-Augmented Generation (RAG)
 - Legal AI
 
-GitHub: https://github.com/<your-username>
+GitHub: https://github.com/geek4s
 
----
 
 ## ⭐ Acknowledgements
 
@@ -244,8 +219,6 @@ GitHub: https://github.com/<your-username>
 - Groq
 - Gradio
 - Google Colab
-
----
 
 ## 📄 License
 
